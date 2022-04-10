@@ -1,0 +1,19 @@
+run:
+  concurrency: 4
+
+linters:
+  enable-all: true
+presets:
+  - bugs
+  - comment
+  - complexity
+  - error
+  - format
+  - import
+  - metalinter
+  - module
+  - performance
+  - sql
+  - style
+  - test
+  - unused
